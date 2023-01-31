@@ -2,6 +2,7 @@ defmodule ReportsGenerator.Parser do
   @moduledoc """
   Documentation for `ReportsGenerator`.
   """
+
   def parse_file(filename) do
     "reports/#{filename}"
     |> File.stream!()
